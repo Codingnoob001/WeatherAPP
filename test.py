@@ -29,8 +29,8 @@ else:
 
 text = ("Hi, Friend.\n\nBelow is today's weather report:\nWeather: {}\nCurrent temperature: {} celsius.\nMaximum day temperature: {} celsius.\nMinimum day temperature: {} celsius.".format(weather, temperature, max_temp, lowest_temp))
 sender = "From: Victorakolo1@gmail.com"
-mailing_list = ["vakolo@stetson.edu", "victorakolo11@gmail.com"]
-mypassword = "nmswelqppdfnrttd"
+mailing_list = []
+mypassword = ""
 Server = smtplib.SMTP('smtp.gmail.com')
 Server.starttls()
 subject = "Today's Weather Report"
